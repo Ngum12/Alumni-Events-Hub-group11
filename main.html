@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alumni Events Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Navigation Menu -->
+  <nav>
+    <div class="logo">
+      <a href="#">Alumni Events Hub</a>
+    </div>
+    <div class="nav-menu">
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <div class="hamburger"></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home/Landing Page -->
+  <section class="home">
+    <div class="intro">
+      <h1>Welcome to Alumni Events Hub</h1>
+      <p>Connecting alumni through exciting events and opportunities.</p>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section id="events">
+    <h2>Upcoming Events</h2>
+    <!-- Professional Development Events -->
+    <div class="event-category">
+      <h3>Professional Development</h3>
+      <!-- Event Cards -->
+      <!-- Event 1 -->
+      <div class="event-card">
+        <div class="content">
+          <img src="images/sport.png" alt="Event 1 Image" />
+          <h4>Event 1 Title</h4>
+          <p>Date: October 15, 2023</p>
+          <p>Time: 2:00 PM - 5:00 PM</p>
+          <p>
+            Description: Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit.
+          </p>
+        </div>
+      </div>
+      <!-- Add more events as needed -->
+    </div>
+
+    <!-- Campus Events -->
+    <div class="event-category">
+      <h3>Campus Events</h3>
+      <!-- Event Cards -->
+      <!-- Event 1 -->
+      <div class="event-card">
+        <div class="content">
+          <img src="images/career fair.png" alt="Event 2 Image" />
+          <h4>Event 2 Title</h4>
+          <p>Date: October 20, 2023</p>
+          <p>Time: 6:00 PM - 9:00 PM</p>
+          <p>
+            Description: Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit.
+          </p>
+        </div>
+      </div>
+      <!-- Add more events as needed -->
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to Alumni Event Hub, a distinguished platform dedicated to fostering a robust connection between our
+      esteemed university and its accomplished alumni.
+      <br>
+    <p></p>
+    Our team consists of dedicated professionals with a wealth of technical expertise. We offer a curated selection of
+    events, including professional development and campus activities, carefully designed to enrich your personal and
+    professional growth.
+    <br>
+    <p></p>
+    embark on this journey together, we encourage you to explore our profiles and connect with us for any inquiries.</p>
+    <!-- Member Profiles -->
+    <div class="member-profile">
+      <div class="profile">
+        <img src="images/6.png" alt="Member 1" />
+        <h3>Herniette</h3>
+        <p>Coordinator</p>
+      </div>
+      <div class="profile">
+        <img src="images/8.png" alt="Member 2" />
+        <h3>Kenny</h3>
+        <p>Web Developer</p>
+      </div>
+      <div class="profile">
+        <img src="images/profile4.jpg" alt="Member 3" />
+        <h3>David</h3>
+        <p>Designer</p>
+      </div>
+      <div class="profile">
+        <img src="images/1.png" alt="Member 4" />
+        <h3>Jules</h3>
+        <p>content creator</p>
+      </div>
+      <div class="profile">
+        <img src="images/7.png" alt="Member 5" />
+        <h3>Ngum</h3>
+        <p>Project manager</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <!-- Contact Form -->
+    <form class="contact-form">
+      <div class="form-grp">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-grp">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-grp">
+        <label for="event">Select Event:</label>
+        <select id="event" name="event">
+          <!-- Populate with event options -->
+          <option value="event1">Event 1 Title</option>
+          <option value="event2">Event 2 Title</option>
+          <!-- Add more options as needed -->
+        </select>
+      </div>
+
+      <button type="submit">Reserve Your Slot</button>
+    </form>
+  </section><br>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2023 Alumni Events Hub</p>
+  </footer>
+</body>
+
+</html>
